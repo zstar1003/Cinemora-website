@@ -2,6 +2,10 @@ import { motion } from 'motion/react';
 import { Apple, Monitor } from 'lucide-react';
 
 export default function App() {
+  const baseUrl = import.meta.env.BASE_URL;
+  const logoSrc = `${baseUrl}logo.png`;
+  const movieSrc = `${baseUrl}movie.mp4`;
+
   return (
     <div className="relative flex min-h-screen flex-col overflow-hidden bg-[#050505] text-white">
       <video
@@ -12,7 +16,7 @@ export default function App() {
         playsInline
         preload="auto"
       >
-        <source src="/movie.mp4" type="video/mp4" />
+        <source src={movieSrc} type="video/mp4" />
       </video>
 
       <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(2,6,23,0.72)_0%,rgba(3,7,18,0.58)_35%,rgba(2,6,23,0.84)_100%)]" />
@@ -21,7 +25,7 @@ export default function App() {
       <nav className="relative z-10 flex min-h-[88px] items-center justify-between px-6 py-5 md:px-10 xl:px-16">
         <div className="flex items-center gap-3">
           <img
-            src="/logo.png"
+            src={logoSrc}
             alt="影视百宝箱"
             className="h-12 w-12 rounded-2xl object-cover shadow-[0_18px_40px_rgba(0,0,0,0.28)]"
           />

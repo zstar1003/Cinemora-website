@@ -1,20 +1,31 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+<p align="center">
+  <img src="public/logo.png" alt="Cinemora" width="120" height="120" />
+</p>
 
-# Run and deploy your AI Studio app
+<h1 align="center">影视百宝箱</h1>
 
-This contains everything you need to run your app locally.
+<p align="center">
+  <strong>汇集一些提升影视制作便利性的工具</strong><br/>
+  所有的处理均发生在你的本地<br/>
+</p>
 
-View your app in AI Studio: https://ai.studio/apps/908ebf20-8218-4916-bdb5-b79ca22f543b
+<p align="center">
+  <a href="https://xdxsb.top/Cinemora-website">https://xdxsb.top/Cinemora-website</a>
+</p>
 
-## Run Locally
+<br/>
 
-**Prerequisites:**  Node.js
+<p align="center">
+  <a href="https://xdxsb.top/Cinemora-website">
+    <img src="assets/caption_reg.png" alt="Cinemora App Screenshot" width="800" />
+  </a>
+</p>
 
+## 支持功能
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- [x] 字幕识别
+- [ ] 语音克隆
+- [ ] 图像超分
+- [ ] 视频超分
+
+更多功能正在开发中...

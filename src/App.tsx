@@ -64,14 +64,14 @@ export default function App() {
 
           <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row">
             <a
-              href="https://github.com/zstar1003/Cinemora-website/releases/download/v0.1.0/Cinemora_0.1.0_x64-setup.exe"
+              href="https://github.com/zstar1003/Cinemora-website/releases/download/v0.2.0/Cinemora_0.2.0_x64-setup.exe"
               className="flex items-center gap-2 rounded-full bg-white px-7 py-4 text-[14px] font-semibold text-[#050505] transition-all hover:scale-[1.02] hover:bg-white/92"
             >
               <Monitor className="w-5 h-5" />
               <span>下载 Windows 版</span>
             </a>
             <a
-              href="https://github.com/zstar1003/Cinemora-website/releases/download/v0.1.0/Cinemora_0.1.0_aarch64.dmg"
+              href="https://github.com/zstar1003/Cinemora-website/releases/download/v0.2.0/Cinemora_0.2.0_aarch64.dmg"
               className="flex items-center gap-2 rounded-full border border-white/18 bg-white/8 px-7 py-4 text-[14px] font-semibold text-white backdrop-blur-md transition-all hover:scale-[1.02] hover:bg-white/12"
             >
               <Apple className="w-5 h-5" />
